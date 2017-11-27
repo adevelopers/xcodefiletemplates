@@ -36,7 +36,7 @@
 			<key>Identifier</key>
 			<string>fileType</string>
 			<key>Name</key>
-			<string>File Type:</string>
+			<string>Architecture:</string>
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
