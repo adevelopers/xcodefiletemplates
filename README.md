@@ -10,7 +10,8 @@ Make this dir, if it doesn't exist
 
 ### ToDo ###
 **Patterns**:  
-- [x] Singletone   
+- [x] Singletone
+- [x] Observer
 - [ ] Bridge  
 - [ ] Proxy  
 - [ ] other GoF patterns  
