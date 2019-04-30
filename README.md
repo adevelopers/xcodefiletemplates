@@ -5,6 +5,10 @@ Templates for Xcode
 
 
 ### How to install ###
+Go to xcode lib folder
+`cd ~/Library/Developer/Xcode/`
+Make dir `Templates`
+
 Clone this repo at path `~/Library/Developer/Xcode/Templates/`  
 Make this dir, if it doesn't exist
 
