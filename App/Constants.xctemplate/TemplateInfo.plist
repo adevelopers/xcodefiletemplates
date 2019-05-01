@@ -15,7 +15,7 @@
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>SortOrder</key>
-	<string>1</string>
+	<string>2</string>
 	<key>Summary</key>
 	<string>Contsnats file</string>
 </dict>

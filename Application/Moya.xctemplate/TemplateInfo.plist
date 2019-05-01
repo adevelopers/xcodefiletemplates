@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>DefaultCompletionName</key>
+	<string>Random</string>
+	<key>SortOrder</key>
+	<string>1</string>
+	<key>Description</key>
+	<string>Generate Moya template</string>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+	<key>Summary</key>
+	<string>This generates a new scene using Uncle Bob&apos;s clean architecture.</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>serviceName</string>
+			<key>Description</key>
+			<string>Service name</string>
+			<key>Name</key>
+			<string>New service name:</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+    </dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName:identifier___API</string>
+			<key>Description</key>
+			<string>D</string>
+			<key>Identifier</key>
+			<string>apiName</string>
+			<key>Name</key>
+			<string>Name of API:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_serviceName:identifier___Service</string>
+			<key>Description</key>
+			<string>D</string>
+			<key>Identifier</key>
+			<string>serviceClassName</string>
+			<key>Name</key>
+			<string>Name of service class:</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
+	</array>
+</dict>
+</plist>
